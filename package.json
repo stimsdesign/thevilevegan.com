@@ -1,0 +1,24 @@
+{
+    "name": "thevilevegan.com",
+    "version": "1.0.0",
+    "description": "Boostrap for 11ty Static Site",
+    "main": ".eleventy.js",
+    "scripts": {
+        "dev": "eleventy --serve",
+        "build": "eleventy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stimsdesign/thevilevegan.com.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stimsdesign/thevilevegan.com/issues"
+    },
+    "homepage": "https://github.com/stimsdesign/thevilevegan.com#readme",
+    "devDependencies": {
+        "@11ty/eleventy": "^1.0.2"
+    }
+}
