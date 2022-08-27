@@ -1,0 +1,13 @@
+# Dependencies installed by npm
+node_modules
+
+# Build
+public
+css
+
+# Secrets and errors
+.env
+.log
+
+# macOS related files
+.DS_Store

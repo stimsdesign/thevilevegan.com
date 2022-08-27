@@ -1,0 +1,10 @@
+---
+title: Blog
+layout: "base.njk"
+---
+<h1>{{ title }}</h1>
+<ul>
+    {%- for post in collections.post | reverse -%}
+        {% include 'post-snippet.njk' %}
+    {%- endfor -%}
+</ul>

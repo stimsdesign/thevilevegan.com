@@ -1,0 +1,11 @@
+---
+title: "Hello, Index!"
+layout: 'base.njk'
+---
+<h1>{{title}}</h1>
+<h2>Featured Posts</h2>
+<ul>
+    {%- for post in collections.featured | reverse -%}
+        {% include 'post-snippet.njk' %}
+    {%- endfor -%}
+</ul>
